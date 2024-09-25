@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="buttonAddMarker" type="id" />
+    <item name="buttonViewMarkers" type="id" />
+    <item name="buttonViewSavedPlaces" type="id" />
+    <item name="buttonDeleteMarker" type="id" />
+    <item name="listViewSavedPlaces" type="id" />
+    <item name="saved_places_list_view" type="id" />
+</resources>

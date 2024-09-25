@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <!-- Imagen del mapa -->
+
+    <!-- Botón para agregar marcador -->
+    <ImageView
+        android:id="@+id/map_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/map" />
+
+    <Button
+        android:id="@+id/add_marker_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar Marcador"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"
+        android:backgroundTint="#FF6200EE"
+        android:textColor="#FFFFFF" />
+
+    <!-- Botón para ver lugares guardados -->
+
+    <!-- Botón para hacer zoom -->
+
+    <Button
+        android:id="@+id/saved_places_button"
+        android:layout_width="137dp"
+        android:layout_height="63dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginBottom="66dp"
+        android:backgroundTint="#FF6200EE"
+        android:text="Ver Lugares Guardados"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/zoom_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zoom In"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="#FF6200EE"
+        android:textColor="#FFFFFF" />
+
+    <!-- Botón para hacer zoom out -->
+    <Button
+        android:id="@+id/zoom_out_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="71dp"
+        android:backgroundTint="#FF6200EE"
+        android:text="Zoom Out"
+        android:textColor="#FFFFFF" />
+</RelativeLayout>
